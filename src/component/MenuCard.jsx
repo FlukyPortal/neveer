@@ -52,7 +52,7 @@ const MenuCard = () => {
           className="content flex border-b-[#00000010] border-b-2 w-fit ml-2 items-center p-5 mb-5">
           <div className="img"><img src={menu.image} className='rounded-full w-[100px] h-[100px] mr-5' alt="" /></div>
           <div className="txt flex items-center gap-10">
-            <div className="left mr-2">
+            <div className="left ml-2">
               <p className='text-[#1D1A40]'>{menu.dish}</p>
               <p className='text-[gray] font-sans font-medium w-[70%]'>{menu.text}</p>
             </div>
