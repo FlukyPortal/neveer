@@ -16,10 +16,10 @@ const Navbar = () => {
                 </div>
                 <div className="links flex gap-5 text-[#1D1A40]">
                     <Link to="/" className="hover:text-[#0D0A20] transition-colors">Home</Link>
-                    <a href="#" className="hover:text-[#0D0A20] transition-colors">Menu</a>
+                    <a href="/menu" className="hover:text-[#0D0A20] transition-colors">Menu</a>
                     <a href="/shop" className="hover:text-[#0D0A20] transition-colors">Shop</a>
                     <a href="#" className="hover:text-[#0D0A20] transition-colors">Location</a>
-                    <a href="#" className="hover:text-[#0D0A20] transition-colors">Contact</a>
+                    <a href="/contact" className="hover:text-[#0D0A20] transition-colors">Contact</a>
                 </div>
                 <div className="cart relative">
                     <Link to="/cart">

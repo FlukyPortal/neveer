@@ -61,7 +61,7 @@ const Product = () => {
         }))
     }
     return (
-        <div className='w-full bg-[#EAEDF6] grid grid-cols-3 gap-3 rounded-4xl mt-2 p-5'>
+        <div className='w-full bg-[#EAEDF6] grid grid-cols-3 gap-3 rounded-4xl mb-4 p-5'>
             {products.map((product) => (
                 <div
                     key={product.id}
