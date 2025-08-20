@@ -49,7 +49,7 @@ const MenuCard = () => {
     <div className='gap-5 p-5 grid grid-cols-2'>
       {menu.map((menu) => (
         <div key={menu.id}
-         className="content flex border-b-[#00000010] border-b-2 w-fit items-center p-5 mb-5">
+          className="content flex border-b-[#00000010] border-b-2 w-fit ml-2 items-center p-5 mb-5">
           <div className="img"><img src={menu.image} className='rounded-full w-[100px] h-[100px] mr-5' alt="" /></div>
           <div className="txt flex items-center gap-10">
             <div className="left">
