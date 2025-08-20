@@ -5,9 +5,16 @@ body {
     font-family: "Archivo Black", "Inter Tight", "Noto Sans", sans-serif;
     overflow-y: scroll;
     scrollbar-width: none;
+
+}
+
+::selection {
+    background: rgb(255, 255, 115);
+    color: aliceblue;
 }
 
 
-html, body {
+html,
+body {
     overflow-x: hidden;
 }
