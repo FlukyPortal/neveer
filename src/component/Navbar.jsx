@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import { BsCartFill } from 'react-icons/bs'
+import '../nav-anim.css';
 
 const Navbar = () => {
     const totalQuantity = useSelector((state) => state.cart.totalQuantity)
@@ -15,10 +16,10 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className="links flex gap-5 text-[#1D1A40]">
-                    <Link to="/" className="hover:text-[#0D0A20] transition-colors">Home</Link>
-                    <a href="/menu" className="hover:text-[#0D0A20] transition-colors">Menu</a>
-                    <a href="/shop" className="hover:text-[#0D0A20] transition-colors">Shop</a>
-                    <a href="/contact" className="hover:text-[#0D0A20] transition-colors">Contact</a>
+                    <Link to="/" className="nav-anim hover:text-[#0D0A20] transition-colors">Home</Link>
+                    <a href="/menu" className="nav-anim hover:text-[#0D0A20] transition-colors">Menu</a>
+                    <a href="/shop" className="nav-anim hover:text-[#0D0A20] transition-colors">Shop</a>
+                    <a href="/contact" className="nav-anim hover:text-[#0D0A20] transition-colors">Contact</a>
                 </div>
                 <div className="cart relative">
                     <Link to="/cart">
