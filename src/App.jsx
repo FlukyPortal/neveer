@@ -1,4 +1,5 @@
 import React from 'react'
+import MouseFollower from './component/MouseFollower'
 import { Routes, Route } from 'react-router-dom'
 import './index.css'
 import Navbar from './component/Navbar'
@@ -11,13 +12,14 @@ import Contactus from './pages/Contactus'
 const App = () => {
   return (
     <div className='p-6'>
+      <MouseFollower />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
         <Route path='/shop' element={<Shop />} />
-        <Route path='/menu' element={<Menu/>}/>
-        <Route path='/contact' element={<Contactus />}/>
+        <Route path='/menu' element={<Menu />} />
+        <Route path='/contact' element={<Contactus />} />
       </Routes>
     </div>
   )
