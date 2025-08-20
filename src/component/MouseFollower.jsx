@@ -6,8 +6,8 @@ const MouseFollower = () => {
         follower.style.position = 'fixed';
         follower.style.top = '0';
         follower.style.left = '0';
-        follower.style.width = '24px';
-        follower.style.height = '24px';
+        follower.style.width = '20px';
+        follower.style.height = '20px';
         follower.style.borderRadius = '50%';
         follower.style.background = 'pink';
         follower.style.pointerEvents = 'none';
