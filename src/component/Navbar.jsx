@@ -5,7 +5,7 @@ import { BsCartFill } from 'react-icons/bs'
 
 const Navbar = () => {
     const totalQuantity = useSelector((state) => state.cart.totalQuantity)
-    
+
     return (
         <div className="w-full absolute flex flex-col items-center justify-center">
             <div className='bg-[#93F3AA] w-[70%] rounded-full h-15 flex items-center justify-between p-5 fixed top-8 left-1/2 transform -translate-x-1/2 z-50 shadow-lg'>
@@ -18,7 +18,6 @@ const Navbar = () => {
                     <Link to="/" className="hover:text-[#0D0A20] transition-colors">Home</Link>
                     <a href="/menu" className="hover:text-[#0D0A20] transition-colors">Menu</a>
                     <a href="/shop" className="hover:text-[#0D0A20] transition-colors">Shop</a>
-                    <a href="#" className="hover:text-[#0D0A20] transition-colors">Location</a>
                     <a href="/contact" className="hover:text-[#0D0A20] transition-colors">Contact</a>
                 </div>
                 <div className="cart relative">
